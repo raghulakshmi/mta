@@ -1,6 +1,5 @@
 for i in $(seq 1 10); do
   sudo /usr/sbin/exim4 \
-    -C /etc/exim4/exim4.conf \
     -odf \
     -f commissioning@example.org \
     Venkatesh.AK@mobileum.com <<EOF
